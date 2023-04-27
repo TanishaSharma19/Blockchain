@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/1bc697dbcc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="JS/main.js"></script>
+    <title>Blockchain</title>
+</head>
+<body>
+    <section class="contact-container">
+        <div class="contact-navbar">
+            <img src="./Logo.png" class="logo" alt="">
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="./blockchain.html">Blockchain</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="./index.html#courses">Courses</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="./course1.html">Beginner</a></li>
+                          <li><a href="./course2.html">Intermediate</a></li>
+                          <li><a href="./course3.html">Advanced</a></li>
+                        </ul>
+                    </li>                      
+                    <li>
+                        <a href="./workshop.html">Workshop</a>
+                    </li>
+                    <li>
+                        <a href="./register.html">Register</a>
+                    </li>
+                </ul>
+            </nav>
+       </div>
+       <div class="main-registerBody">
+        <div class="register">
+            <div class="registerHeads">
+                <h1>Register Now!!!</h1>
+                <h2>Boost Your Tech Skills and Beat the Heat this Summer!</h2>
+                <p style="color: red">* required fields</p>
+                <p>Enter your Transaction ID for payment proof</p>
+            </div>
+            <div class="formBody">
+                <form action="https://script.google.com/macros/s/AKfycbx6kBRcb1DfCqzzqg2pMuVU9LKPoqAVAyN2m7EF5VjltL8fklR9lzot5BuPMKfWkcWe/exec" onsubmit="submitForm(event)" method="post" enctype="multipart/form-data">
+                    <label for="fname">First Name: *</label><br>
+                    <input class="inputField" type="text" required name="fname"><br>
+                    <label for="lname">Last Name: *</label><br>
+                    <input class="inputField" type="text" required name="lname"><br>
+                    <label for="roll">Roll No.:*</label><br>
+                    <input class="inputField" type="number" required name="roll"><br>
+                    <label for="email">Email:*</label><br>
+                    <input class="inputField" type="email" required name="email"><br>
+                    <label for="phone">Phone:*</label><br>
+                    <input class="inputField" type="tel" required name="phone"><br>
+                    <label for="institute">Institute Name:*</label><br>
+                    <input class="inputField" type="text" required name="institute"><br>
+                    <label for="department">Department:*</label><br>
+                    <input class="inputField" type="text" required name="department"><br>
+                    <label for="year">Year:*</label><br>
+                    <input class="inputField" type="number" required name="year"><br>
+                    <label for="remarks">Transaction ID:*</label><br>
+                    <input class="inputField" type="text" required name="remarks"><br>
+                    <input class="inputField" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>   
+    </section>
+</body>
+</html>
